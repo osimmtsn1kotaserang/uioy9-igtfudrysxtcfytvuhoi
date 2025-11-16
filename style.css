@@ -412,8 +412,8 @@ html, body {
   }
 
   .bubble-img {
-    width: 1em;
-    height: 1em;
+    width: 90px;
+    height: 90px;
   }
 }
 /* ---------- RESPONSIVE (HP) ---------- */
@@ -456,4 +456,5 @@ html, body {
   }
 
 }
+
 }
