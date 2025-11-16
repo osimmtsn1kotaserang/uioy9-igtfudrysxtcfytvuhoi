@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unjuk Bakat</title>
+        <link rel="icon" type="image/png" href="img/Osim.png">
+    </head>
+    <body class="Contentpage">    
+        <link rel="stylesheet" href="style.css">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Daftar.html">Daftar</a></li>
+                <li><a href="Peraturan.html">Peraturan</a></li>
+                <li><a href="Karya.html">Karya</a></li>
+                <li><a href="Kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="form-container">
+            <h1>Form Unjuk Bakat </h1>
+                <p>Isi form di bawah ini. Kuota terbatas hanya untuk 25 kelompok</p>
+
+            <form id="kuesioner" action="https://formspree.io/f/meovavdj" method="POST" enctype="multipart/form-data">
+            <label>Nama Kelompok:</label>
+            <input type="text" name="nama kelompok" placeholder="xxxxxxxxxxxx" required>
+
+            <label>Jumlah Anggota:</label>
+            <input type="text" name="Jmlh" placeholder="1 - 20" required>
+
+            <label>Nama & Kelas:</label>
+            <input type="text" name="NamaKelas" placeholder="Nama 7/8/9x" required>
+
+            <label>Nomor Telefon:</label>
+            <input type="text" name="Nomor" placeholder="08xxxxxxxxxxx" required>
+
+            <label>Jenis Penampilan:</label>
+            <textarea name="Jenis" placeholder="Drama" required></textarea>
+                    
+            <label>URL:</label>
+            <input type="text" name="URL Youtube" placeholder="https://youtube.com/contohURL">
+
+            <button type="submit">Kirim</button>
+            </form>
+
+        <p id="status"></p>
+        <div class="progress-bar"><div class="progress" id="progress"></div></div>
+        </div>
+        <script src="daftar.js"></script>
+    </body>
+</html>
